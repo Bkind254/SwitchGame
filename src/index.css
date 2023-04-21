@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap');
+
+
+/* base styles */
+body {
+  font-family: 'Almendra Display', cursive;
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  /* background: #1b1523; */
+  color: #fff;
+  height: 100vh;
+  background: linear-gradient(to top right, #212529, #343a40, #495057, #868e96, #adb5bd);
+  background-size: 600% 600%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
