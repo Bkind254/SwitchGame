@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import SingleCard from "./components/SingleCard";
-//import { Analytics } from '@vercel/analytics/react'
 
 const myCards = [
   { src: "/img/go.png", matched: false },
@@ -38,20 +37,11 @@ function App() {
 
   // compare choices of the 2 selected cards
   useEffect(() => {
-    // const resetTurn = () => {
-    //   setFirst(null);
-    //   setSecond(null);
-    // };
     if (first && second) {
       setDisabled(true);
       if (first.src === second.src) {
         setCards((prevCards) =>
           prevCards.map((card) =>
-            // { if (card.src === first.src) {
-            //   return {...card, matched: true}
-            // } else {
-            //   return card
-            // }}
             card.src === first.src ? { ...card, matched: true } : card
           )
         );
