@@ -1,5 +1,6 @@
 .card {
   position: relative;
+  overflow: hidden;
 }
 
 .card img {

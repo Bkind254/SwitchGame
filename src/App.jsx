@@ -3,11 +3,11 @@ import "./App.css";
 import SingleCard from "./components/SingleCard";
 
 const myCards = [
-  { src: "/img/go.png", matched: false },
-  { src: "/img/js.png", matched: false },
-  { src: "/img/php.png", matched: false },
-  { src: "/img/python.png", matched: false },
-  { src: "/img/react.png", matched: false },
+  { src: "/img/go.jfif", matched: false },
+  { src: "/img/js.jfif", matched: false },
+  { src: "/img/php.jfif", matched: false },
+  { src: "/img/python.jfif", matched: false },
+  { src: "/img/react.jfif", matched: false },
   { src: "/img/rust.png", matched: false },
 ];
 
@@ -69,7 +69,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Mind Match</h1>
+      <h1>Hero Match</h1>
       <button onClick={shuffle}>New Game</button>
       <div className="card___grid">
         {cards.map((card) => (

@@ -28,6 +28,6 @@ button:hover {
 }
 
 .no___turns {
-  color: rgb(255, 251, 0);
+  color: red !important;
   font-size: 35px;
 }
