@@ -31,3 +31,10 @@ button:hover {
   color: red !important;
   font-size: 35px;
 }
+
+@media screen and (max-width: 768px) {
+  .card___grid {
+    grid-gap: 15px;
+    padding: 8px;
+  }
+}
